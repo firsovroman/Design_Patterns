@@ -1,6 +1,6 @@
 package com.firsov.design_patterns.J_iterator;
 
-public class JavaDeveloper implements Collection{
+public class JavaDeveloper implements IterableCollection {
     private String name;
     private String[] skils;
 
@@ -11,18 +11,6 @@ public class JavaDeveloper implements Collection{
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String[] getSkils() {
-        return skils;
-    }
-
-    public void setSkils(String[] skils) {
-        this.skils = skils;
     }
 
     @Override

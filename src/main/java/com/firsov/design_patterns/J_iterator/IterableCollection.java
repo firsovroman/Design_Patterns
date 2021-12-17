@@ -1,6 +1,6 @@
 package com.firsov.design_patterns.J_iterator;
 
-public interface Collection {
+public interface IterableCollection {
 
     Iterator getIterator();
 
