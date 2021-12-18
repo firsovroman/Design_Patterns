@@ -14,7 +14,7 @@ public class ProxyProject implements Project {
         if(realProject == null) {
             realProject = new RealProject(url);
         }
-
+        System.out.println("Логирование вызова...");
         realProject.run();
     }
 }
